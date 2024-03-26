@@ -1,0 +1,188 @@
+.home{
+    background-image: url(../img/bg.jpg);
+    min-width: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.576);
+}
+.homecontant h1::before {
+    content: "";
+    animation: identifier 40s infinite ;
+    color: white; 
+}
+@keyframes identifier{
+    5%{
+        content: " I Am  Developer|";
+    }
+    6%{
+        content: "I Am  Develope |";
+    }
+    7%{
+        content: "I Am Develop |";
+    }
+    8%{
+        content: "I Am Develo |";
+    }
+    9%{
+        content: "I Am  Devel|";
+    }
+    10%{
+        content: "I Am   Deve|";
+    }
+    11%{
+        content: "I Am Dev |";
+    }
+    12%{
+        content: "I Am  De|";
+    }
+    13%{
+        content: "I Am D |";
+    }
+    14%{
+        content: "I Am Designer |";
+    }
+    15%{
+        content: "I Am Designe |";
+    }
+    16%{
+        content: "I Am Design |";
+    }
+    17%{
+        content: "I Am Desig |";
+    }
+    18%{
+        content: "I Am  Desi|";
+    }
+    19%{
+        content: "I Am Des|";
+    }
+    20%{
+        content: "I Am  De|";
+    }
+    21%{
+        content: "I Am  D|";
+    }
+    22%{
+        content: "I Am  Larry Daniels|";
+    }
+    23%{
+        content: "I Am  Larry Daniel|";
+    }
+    24%{
+        content: "I Am  Larry Danie|";
+    }
+    25%{
+        content: "I Am  Larry Dani|";
+    }
+    26%{
+        content: "I Am  Larry Dan|";
+    }
+    27%{
+        content: "I Am  Larry Da|";
+    }
+    28%{
+        content: "I Am  Larry D|";
+    }
+    29%{
+        content: "I Am  Larry |";
+    }
+    30%{
+        content: "I Am  Larr|";
+    }
+    31%{
+        content: "I Am  Lar|";
+    }
+    32%{
+        content: "I Am  La|";
+    }
+    33%{
+        content: "I Am  L|";
+    }
+}
+/****************************************************/
+.content i{
+    font-size: 30px;
+}
+/****************************************************/
+.nav-item button {
+color: #000;
+margin: 0px 10px;
+}
+.work-itme{
+    transition: opacity 0.5s;
+}
+.work-itme .layer {
+ background-color: rgba(255, 255, 255, 0.95);
+ opacity: 0 !important;
+ transition: opacity 0.5s;
+}
+.work-itme :hover.layer{
+    opacity: 1 !important;
+}
+/******************************************************/
+.Testimonials{
+    background: #f7f7f7;
+    padding: 100px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 20px;
+    width: 20px;
+    border-radius: 30%;
+    background: #D6D6D6;
+    text-align: center;
+}
+/********************************************************/
+.logo{
+    padding: 50px;
+}
+.item i{
+font-size: 30px;
+}
+/****************************************************/
+.log1 i{
+    font-size: 30px;
+}
+.Contact{
+    background-color: #d6d6d61f;
+}
+.nambre{
+    padding: 20px;
+    color:white;
+    text-align: center;
+}
+.Blog {
+    background: #D6D6D6;
+}
+.Services{
+    background: #D6D6D6; 
+}
+.content i {
+    width: 60px;
+    height: 60px;
+    background: #D6D6D6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+}
+.content{
+    text-align: center;
+    transition: opacity 0.5s;
+}
+.content:hover i {
+    background-color: rgba(24, 22, 22, 0);
+    opacity: 1 !important;
+    transition: opacity 0.5s;
+}
+.clearfix  .item{
+    background: #1c1c1c;
+    color: #eee;
+}
+.mo i {
+    display: flex;
+    justify-content: center;
+}
+
